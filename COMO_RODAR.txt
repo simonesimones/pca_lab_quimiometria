@@ -1,0 +1,27 @@
+PCA Lab Quimiometria — Como rodar localmente
+
+1) Instale o Python 3.10 ou superior.
+   No Windows, marque a opção: Add Python to PATH.
+
+2) Descompacte esta pasta.
+
+3) Abra o terminal dentro da pasta PCA_Lab_Quimiometria.
+   No Windows, você pode abrir a pasta, clicar na barra de endereço, digitar cmd e apertar Enter.
+
+4) Instale as bibliotecas:
+   pip install -r requirements.txt
+
+5) Rode a interface:
+   streamlit run PCA_Lab_Quimiometria.py
+
+6) O navegador deve abrir automaticamente.
+   Se não abrir, copie o endereço mostrado no terminal, geralmente:
+   http://localhost:8501
+
+Uso em aula:
+- Carregue uma matriz .xlsx ou .csv.
+- Escolha a coluna de amostras.
+- Escolha a coluna de classe/grupo, se existir.
+- Para o Escape Room, ative o modo desafio para esconder classes.
+- Escolha o pré-processamento.
+- Clique em Executar PCA.
